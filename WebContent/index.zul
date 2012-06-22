@@ -4,11 +4,18 @@
   body { padding: 0 0;  /* 0 padding	on top and bottom and 0 padding on right and left */ 
 </style>
 <borderlayout>
-	<north border="0" height="200px" id="header" style="background-color:#cccccc">
-	<div>DIV NORD</div>
+	<north border="0" height="200px" id="north_header" >
+		<div id="header">
+			<div id="top_bar">Top-bar</div>
+			<div id="slideshow">
+				SLIDESHOW
+			</div>
+		</div>
 	</north>
-	<west id="ovest">OVEST id</west>
-	<center>CENTRO</center>
+	<west id="ovest" draggable="true">OVEST id</west>
+	<center>
+		CENTRO
+	</center>
 	<south>FOOTER</south>
 </borderlayout>
 </zk>
