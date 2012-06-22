@@ -7,7 +7,7 @@
 	<north border="0" height="200px" id="header" style="background-color:#cccccc">
 	<div>DIV NORD</div>
 	</north>
-	<west id="ovest">OVEST id ovest</west>
+	<west id="ovest">OVEST id</west>
 	<center>CENTRO</center>
 	<south>FOOTER</south>
 </borderlayout>
