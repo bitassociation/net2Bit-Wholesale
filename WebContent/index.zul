@@ -1,0 +1,14 @@
+<?page title="net2Bit Wholesale portal" style="width:100%;height:100%" apply="net2bit.IndexController"?>
+<zk>
+<style>
+  body { padding: 0 0;  /* 0 padding	on top and bottom and 0 padding on right and left */ 
+</style>
+<borderlayout>
+	<north border="0" height="200px" id="header" style="background-color:#cccccc">
+	<div>DIV NORD</div>
+	</north>
+	<west id="ovest">OVEST id ovest</west>
+	<center>CENTRO</center>
+	<south>FOOTER</south>
+</borderlayout>
+</zk>
