@@ -1,21 +1,20 @@
 <?page title="net2Bit Wholesale portal" style="width:100%;height:100%" apply="net2bit.IndexController"?>
+
 <zk>
-<style>
-  body { padding: 0 0;  /* 0 padding	on top and bottom and 0 padding on right and left */ 
-</style>
-<borderlayout>
-	<north border="0" height="200px" id="north_header" >
-		<div id="header">
-			<div id="top_bar">Top-bar</div>
-			<div id="slideshow">
-				SLIDESHOW
-			</div>
-		</div>
-	</north>
-	<west id="ovest" draggable="true">OVEST id</west>
-	<center>
-		CENTRO
-	</center>
-	<south>FOOTER</south>
-</borderlayout>
+<div width="960px; margin:0 auto;">
+	<borderlayout>
+		
+		<north border="0" height="250px" id="header" sclass="header">
+			<div>
+				<div id="top_bar" sclass="top_bar">TOPBAR</div>
+				<div id="big_slider" sclass="big_slider">BIG SLIDER</div>
+			</div>		
+		</north>
+		
+		<south border="0" height="100px">FOOTER</south>
+		
+		<center border="0">asd</center>
+		
+	</borderlayout>
+</div>
 </zk>
