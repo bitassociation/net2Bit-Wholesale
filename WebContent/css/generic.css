@@ -1,3 +1,7 @@
 body { margin:0; padding:0;   } 
 
+.container { width:960px; margin:0 auto; background-color:transparent;}
+.top_bar { height:30px; line-height: 30px;}
+.box_float { float:left; }
+.logo_box {width:80%;} .login_box { width: 20%; }
 .header { background-color:#ccc}

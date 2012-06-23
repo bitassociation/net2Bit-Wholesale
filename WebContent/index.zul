@@ -1,20 +1,36 @@
 <?page title="net2Bit Wholesale portal" style="width:100%;height:100%" apply="net2bit.IndexController"?>
 
 <zk>
-<div width="960px; margin:0 auto;">
-	<borderlayout>
-		
+
+	<borderlayout sclass="container">
+	
 		<north border="0" height="250px" id="header" sclass="header">
 			<div>
-				<div id="top_bar" sclass="top_bar">TOPBAR</div>
-				<div id="big_slider" sclass="big_slider">BIG SLIDER</div>
+				<div id="top_bar" sclass="top_bar">
+					<div sclass="logo_box box_float">
+					**box logo/slogan**
+					</div>
+					<div sclass="login_box box_float">
+					<menubar autodrop="true">
+						<menu label="Login">
+							<menupopup>
+								<menuitem label="Buyer Login" />
+								<menuseparator />
+								<menuitem label="Seller login" />
+							</menupopup>
+						</menu>
+					</menubar>
+					</div>
+				</div>
+				<div id="big_slider" sclass="big_slider">BIG SLIDER SLOGAN</div>
 			</div>		
 		</north>
 		
 		<south border="0" height="100px">FOOTER</south>
-		
-		<center border="0">asd</center>
-		
+
+		<center border="0">
+			
+		</center>			
 	</borderlayout>
-</div>
+
 </zk>
