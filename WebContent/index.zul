@@ -14,9 +14,9 @@
 					<menubar autodrop="true">
 						<menu label="Login">
 							<menupopup>
-								<menuitem label="Buyer Login" />
+								<menuitem label="Buyer Login" href="login.zul" />
 								<menuseparator />
-								<menuitem label="Seller login" />
+								<menuitem label="Seller login" href="login.zul"/>
 							</menupopup>
 						</menu>
 					</menubar>
